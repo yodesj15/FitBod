@@ -86,6 +86,7 @@
             $codePremierChiffre = rand(0, 9);
             $codeDeuxièmeChiffre = rand(0, 9);
             $codeTroisièmeChiffre = rand(0, 9);
+            // nombre aléatoire pour le titre des images
             $nbAleatoire = $codePremierChiffre . $codeDeuxièmeChiffre . $codeTroisièmeChiffre;
 
             $file_name = $_FILES['fichier']['name'];
